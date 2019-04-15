@@ -16,7 +16,7 @@
 		4D252EAF225CFF8F00D50EDC /* ApnsSampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D252EAE225CFF8F00D50EDC /* ApnsSampleTests.m */; };
 		4D252EBA225CFF8F00D50EDC /* ApnsSampleUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D252EB9225CFF8F00D50EDC /* ApnsSampleUITests.m */; };
 		4DD2BAE3226541EC00B96A54 /* ApnsSample in Resources */ = {isa = PBXBuildFile; fileRef = 4DD2BAE2226541EC00B96A54 /* ApnsSample */; };
-		4DD2BAE72265441E00B96A54 /* AppleDevProgamSite.png in Resources */ = {isa = PBXBuildFile; fileRef = 4DD2BAE62265441E00B96A54 /* AppleDevProgamSite.png */; };
+		4DD2BAEA226545FB00B96A54 /* AppleDevProgamSite.png in Resources */ = {isa = PBXBuildFile; fileRef = 4DD2BAE9226545FB00B96A54 /* AppleDevProgamSite.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,7 +56,7 @@
 		4D252EC7225D098D00D50EDC /* ApnsSample.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = ApnsSample.entitlements; sourceTree = "<group>"; };
 		4DD2BAE02262924800B96A54 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		4DD2BAE2226541EC00B96A54 /* ApnsSample */ = {isa = PBXFileReference; lastKnownFileType = folder; path = ApnsSample; sourceTree = "<group>"; };
-		4DD2BAE62265441E00B96A54 /* AppleDevProgamSite.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = AppleDevProgamSite.png; path = docImages/AppleDevProgamSite.png; sourceTree = "<group>"; };
+		4DD2BAE9226545FB00B96A54 /* AppleDevProgamSite.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = AppleDevProgamSite.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,8 +87,8 @@
 		4D252E89225CFF8D00D50EDC = {
 			isa = PBXGroup;
 			children = (
+				4DD2BAE8226545CA00B96A54 /* docimages */,
 				4DD2BAE02262924800B96A54 /* README.md */,
-				4DD2BAE62265441E00B96A54 /* AppleDevProgamSite.png */,
 				4D252E94225CFF8D00D50EDC /* ApnsSample */,
 				4DD2BAE2226541EC00B96A54 /* ApnsSample */,
 				4D252EAD225CFF8F00D50EDC /* ApnsSampleTests */,
@@ -140,6 +140,14 @@
 				4D252EBB225CFF8F00D50EDC /* Info.plist */,
 			);
 			path = ApnsSampleUITests;
+			sourceTree = "<group>";
+		};
+		4DD2BAE8226545CA00B96A54 /* docimages */ = {
+			isa = PBXGroup;
+			children = (
+				4DD2BAE9226545FB00B96A54 /* AppleDevProgamSite.png */,
+			);
+			path = docimages;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -257,7 +265,7 @@
 				4D252E9F225CFF8F00D50EDC /* Assets.xcassets in Resources */,
 				4DD2BAE3226541EC00B96A54 /* ApnsSample in Resources */,
 				4D252E9D225CFF8D00D50EDC /* Main.storyboard in Resources */,
-				4DD2BAE72265441E00B96A54 /* AppleDevProgamSite.png in Resources */,
+				4DD2BAEA226545FB00B96A54 /* AppleDevProgamSite.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
