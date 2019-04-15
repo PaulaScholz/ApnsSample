@@ -16,7 +16,7 @@ To send and receive push notifications for your iOS device, you must:
 
 To register your application with the Apple Push Notification service, start Safari and go to the [Apple Developer Program site](https://developer.apple.com "Apple Developer Program website").  Sign in with your Apple Developer ID and then click **Account**. You will see a screen like this:
 
-![Account Section](docImages/AppleDevProgramSite.png?raw=true "Account Section")
+![Account Section](docImages/AppleDevProgamSite.png "Account Section")
 
 
 ```objc
