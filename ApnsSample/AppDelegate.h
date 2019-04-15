@@ -13,7 +13,7 @@
 
 @property (strong, nonatomic) UIWindow *window;
 
-// this is for <= ios 9
 @property (strong, nonatomic) NSString *strDeviceToken;
+
 @end
 
