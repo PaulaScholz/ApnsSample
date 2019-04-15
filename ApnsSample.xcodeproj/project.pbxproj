@@ -17,6 +17,7 @@
 		4D252EBA225CFF8F00D50EDC /* ApnsSampleUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D252EB9225CFF8F00D50EDC /* ApnsSampleUITests.m */; };
 		4DD2BAE3226541EC00B96A54 /* ApnsSample in Resources */ = {isa = PBXBuildFile; fileRef = 4DD2BAE2226541EC00B96A54 /* ApnsSample */; };
 		4DD2BAE52265430E00B96A54 /* AppleDevProgamSite.png in Resources */ = {isa = PBXBuildFile; fileRef = 4DD2BAE42265430E00B96A54 /* AppleDevProgamSite.png */; };
+		4DD2BAE72265441E00B96A54 /* AppleDevProgamSite.png in Resources */ = {isa = PBXBuildFile; fileRef = 4DD2BAE62265441E00B96A54 /* AppleDevProgamSite.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,6 +58,7 @@
 		4DD2BAE02262924800B96A54 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		4DD2BAE2226541EC00B96A54 /* ApnsSample */ = {isa = PBXFileReference; lastKnownFileType = folder; path = ApnsSample; sourceTree = "<group>"; };
 		4DD2BAE42265430E00B96A54 /* AppleDevProgamSite.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = AppleDevProgamSite.png; path = ApnsSample/docImages/AppleDevProgamSite.png; sourceTree = "<group>"; };
+		4DD2BAE62265441E00B96A54 /* AppleDevProgamSite.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = AppleDevProgamSite.png; path = docImages/AppleDevProgamSite.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,7 +89,9 @@
 		4D252E89225CFF8D00D50EDC = {
 			isa = PBXGroup;
 			children = (
+				4DD2BAE02262924800B96A54 /* README.md */,
 				4DD2BAE42265430E00B96A54 /* AppleDevProgamSite.png */,
+				4DD2BAE62265441E00B96A54 /* AppleDevProgamSite.png */,
 				4D252E94225CFF8D00D50EDC /* ApnsSample */,
 				4DD2BAE2226541EC00B96A54 /* ApnsSample */,
 				4D252EAD225CFF8F00D50EDC /* ApnsSampleTests */,
@@ -110,7 +114,6 @@
 			isa = PBXGroup;
 			children = (
 				4D252EC7225D098D00D50EDC /* ApnsSample.entitlements */,
-				4DD2BAE02262924800B96A54 /* README.md */,
 				4D252E95225CFF8D00D50EDC /* AppDelegate.h */,
 				4D252E96225CFF8D00D50EDC /* AppDelegate.m */,
 				4D252E98225CFF8D00D50EDC /* ViewController.h */,
@@ -258,6 +261,7 @@
 				4DD2BAE3226541EC00B96A54 /* ApnsSample in Resources */,
 				4D252E9D225CFF8D00D50EDC /* Main.storyboard in Resources */,
 				4DD2BAE52265430E00B96A54 /* AppleDevProgamSite.png in Resources */,
+				4DD2BAE72265441E00B96A54 /* AppleDevProgamSite.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
