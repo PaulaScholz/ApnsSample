@@ -17,6 +17,9 @@
 		4D252EBA225CFF8F00D50EDC /* ApnsSampleUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D252EB9225CFF8F00D50EDC /* ApnsSampleUITests.m */; };
 		4DD2BAE3226541EC00B96A54 /* ApnsSample in Resources */ = {isa = PBXBuildFile; fileRef = 4DD2BAE2226541EC00B96A54 /* ApnsSample */; };
 		4DD2BAEA226545FB00B96A54 /* AppleDevProgamSite.png in Resources */ = {isa = PBXBuildFile; fileRef = 4DD2BAE9226545FB00B96A54 /* AppleDevProgamSite.png */; };
+		4DD2BAEC22663F0300B96A54 /* addCertificate_1.png in Resources */ = {isa = PBXBuildFile; fileRef = 4DD2BAEB22663F0300B96A54 /* addCertificate_1.png */; };
+		4DD2BAEF22663F0E00B96A54 /* RegisterAppID.png in Resources */ = {isa = PBXBuildFile; fileRef = 4DD2BAED22663F0E00B96A54 /* RegisterAppID.png */; };
+		4DD2BAF022663F0E00B96A54 /* iOSCertificates.png in Resources */ = {isa = PBXBuildFile; fileRef = 4DD2BAEE22663F0E00B96A54 /* iOSCertificates.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,6 +60,9 @@
 		4DD2BAE02262924800B96A54 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		4DD2BAE2226541EC00B96A54 /* ApnsSample */ = {isa = PBXFileReference; lastKnownFileType = folder; path = ApnsSample; sourceTree = "<group>"; };
 		4DD2BAE9226545FB00B96A54 /* AppleDevProgamSite.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = AppleDevProgamSite.png; sourceTree = "<group>"; };
+		4DD2BAEB22663F0300B96A54 /* addCertificate_1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = addCertificate_1.png; sourceTree = "<group>"; };
+		4DD2BAED22663F0E00B96A54 /* RegisterAppID.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = RegisterAppID.png; sourceTree = "<group>"; };
+		4DD2BAEE22663F0E00B96A54 /* iOSCertificates.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iOSCertificates.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -145,6 +151,9 @@
 		4DD2BAE8226545CA00B96A54 /* docimages */ = {
 			isa = PBXGroup;
 			children = (
+				4DD2BAEE22663F0E00B96A54 /* iOSCertificates.png */,
+				4DD2BAED22663F0E00B96A54 /* RegisterAppID.png */,
+				4DD2BAEB22663F0300B96A54 /* addCertificate_1.png */,
 				4DD2BAE9226545FB00B96A54 /* AppleDevProgamSite.png */,
 			);
 			path = docimages;
@@ -263,9 +272,12 @@
 			files = (
 				4D252EA2225CFF8F00D50EDC /* LaunchScreen.storyboard in Resources */,
 				4D252E9F225CFF8F00D50EDC /* Assets.xcassets in Resources */,
+				4DD2BAEF22663F0E00B96A54 /* RegisterAppID.png in Resources */,
 				4DD2BAE3226541EC00B96A54 /* ApnsSample in Resources */,
 				4D252E9D225CFF8D00D50EDC /* Main.storyboard in Resources */,
 				4DD2BAEA226545FB00B96A54 /* AppleDevProgamSite.png in Resources */,
+				4DD2BAEC22663F0300B96A54 /* addCertificate_1.png in Resources */,
+				4DD2BAF022663F0E00B96A54 /* iOSCertificates.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

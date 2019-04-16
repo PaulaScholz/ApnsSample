@@ -12,12 +12,25 @@ To send and receive push notifications for your iOS device, you must:
   * Have an Apple Developer Program membership. To send push notifications from your server you need a push notification certificate for your Apple Developer ID, which requires program membership.
   * Have a server to send push notifications to your device. For this tutorial, we will use the free web-based [pushtry.com](http://pushtry.com "Pushtry notification testing server") server. This free site provides both iOS and Android push notification testing services.
 
-## Configuring your application
+## Configue your application
 
-To register your application with the Apple Push Notification service, start Safari and go to the [Apple Developer Program site](https://developer.apple.com "Apple Developer Program website").  Sign in with your Apple Developer ID and then click **Account**. You will see a screen like this:
+To register your application with the Apple Push Notification service, start Safari and go to the [Apple Developer Program site](https://developer.apple.com "Apple Developer Program website").  Sign in with your Apple Developer ID and then click **Account**. You will see a screen like this, hopefullty with your own name and not mine:
 
 ![Account Section](docimages/AppleDevProgamSite.png "Account Section")
 
+Click on the section that says *Certificates, Identifiers & Profiles*.  You will be taken to a screen that looks like this:
+![iOS Certificates](docimages/iOSCertificates.png "iOS Certificates")
+
+First, you must register an AppID for your push notifications client application.  In the left hand menu, press the choice that says **App IDs**.  You will be taken to a screen that looks like this:
+
+![Register App ID](docimages/RegisterAppID.png "Register App IDs")
+
+Fill in the choice for your application name, and then select the **Explicit App ID** choice and fill in the choice using the convention of *domainSuffix.domainName.yourAppNamne*.  Then, in the **App Services** section below, make sure you selecty the choice that says **Push Notifications**. Scroll to the bottom of the page and press the **Continue** button.  Return to the main Apple Developer Program account page.
+
+Next, to add a new certificate for Push Notification services, press the + button.  You will be taken to a screen that looks like this:
+![add certificate](docimages/addCertificate_1.png "add certificate")
+
+Press the choice that says *Apple Push Notification services SSL (Sandbox & Production*.  You may use this certificate for both scenarios.  Then, scroll to the bottom of the page and press the **Continue** button.
 
 ```objc
 #import <UIKit/UIKit.h>
