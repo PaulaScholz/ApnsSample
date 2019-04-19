@@ -22,6 +22,7 @@ First, we'll create the SSL Certificate, for which we'll need a certificate sign
 Input your email address and name, and select the **Request is: Saved to disk** radio button.  Click **Continue** to save the `.certSigningRequest` to your Mac.
 
 ![Keychain Access](docimages/KeychainAccess-RequestSaved.png "Request is: Saved to disk")
+
 You will need this certificate request later in the provisioning process.
 
 To register your application with the Apple Push Notification service, start Safari and go to the [Apple Developer Program site](https://developer.apple.com "Apple Developer Program website").  Sign in with your Apple Developer ID and then click **Account**. You will see a screen like this, hopefullty with your own name and not mine:
@@ -44,7 +45,7 @@ Now, fill in the choice for your application name, and then select the **Explici
 
 ![Confirm App ID](docimages/AppIDRegister.png "App ID Confirm")
 
-If everything looks fine, press the **Register** button to move to the next step.  You will be taken back to the list of *AppIDs**.  Click on the one you just created.
+If everything looks fine, press the **Register** button to move to the next step.  You will be taken back to the list of **AppIDs**.  Click on the one you just created.
 
 ![App ID List Select](docimages/AppIDListSelect.png "AppID List Select")
 
@@ -106,7 +107,9 @@ Give your **Provisioning Profile** a name and press **Continue**.  Your profile 
 
 Press the **Done** button. To install the newly-generated **Provisioning Profile**, simply double-click it.
 
-## 
+## The Code
+
+
 
 ```objc
 #import <UIKit/UIKit.h>
