@@ -24,12 +24,10 @@
 
     // execute on main thread only
     dispatch_async(dispatch_get_main_queue(), ^{
-       [self registerForRemoteNotifications];
+        [self registerForRemoteNotifications];
     });
     
-    
     return YES;
-    
 }
 
 
@@ -87,10 +85,6 @@
                 NSLog(@"error in notification registration : %@", [error localizedDescription]);            }
         }];
     }
-    else {
-        // Code for old versions, you will get a warning that this code is deprecated from Xcode
-        [[UIApplication sharedApplication] registerUserNotificationSettings:[UIUserNotificationSettings settingsForTypes:(UIUserNotificationTypeSound | UIUserNotificationTypeAlert | UIUserNotificationTypeBadge) categories:nil]];
-        [[UIApplication sharedApplication] registerForRemoteNotifications];    }
 }
 
 //Called when a notification is delivered to a foreground app.
@@ -99,28 +93,29 @@
     completionHandler(UNAuthorizationOptionSound | UNAuthorizationOptionAlert | UNAuthorizationOptionBadge);
     
     [self handleRemoteNotification:[UIApplication sharedApplication] userInfo:notification.request.content.userInfo];
-    
 }
 
 // if the user presses on the notification while the app is in background, launch the content in the passed URL in Safari
 - (void)userNotificationCenter:(UNUserNotificationCenter *)center
 didReceiveNotificationResponse:(UNNotificationResponse *)response
          withCompletionHandler:(void(^)(void))completionHandler {
+    
     // The method will be called on the delegate when the user responded to the notification by opening the application,
     // dismissing the notification or choosing a UNNotificationAction.
     // The delegate must be set before the application returns from applicationDidFinishLaunching:.
     
     NSLog(@"User Info : %@",response.notification.request.content.userInfo);
     
-    
     [self handleRemoteNotification:[UIApplication sharedApplication] userInfo:response.notification.request.content.userInfo];
-    
 }
 
 // If we did successfully register for device notifications, get our device token and put it on the debug console
 - (void)application:(UIApplication *)application didRegisterForRemoteNotificationsWithDeviceToken:(NSData *)deviceToken{
+    
     NSString *strDevicetoken = [[NSString alloc]initWithFormat:@"%@",[[[deviceToken description] stringByTrimmingCharactersInSet:[NSCharacterSet characterSetWithCharactersInString:@"<>"]] stringByReplacingOccurrencesOfString:@" " withString:@""]];
+    
     NSLog(@"Device Token = %@",strDevicetoken);
+    
     self.strDeviceToken = strDevicetoken;
 }
 

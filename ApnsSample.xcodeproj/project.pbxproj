@@ -32,6 +32,8 @@
 		4D9E34C322698EC0002CEF0B /* KeychainAccess-RequestCert.png in Resources */ = {isa = PBXBuildFile; fileRef = 4D9E34B222698EC0002CEF0B /* KeychainAccess-RequestCert.png */; };
 		4D9E34C422698EC0002CEF0B /* ExportSSLCert.png in Resources */ = {isa = PBXBuildFile; fileRef = 4D9E34B322698EC0002CEF0B /* ExportSSLCert.png */; };
 		4D9E34C522698EC0002CEF0B /* iosDevCertProcess in Resources */ = {isa = PBXBuildFile; fileRef = 4D9E34B422698EC0002CEF0B /* iosDevCertProcess */; };
+		4D9EFD2E226A34C70099C9BF /* ApsJson.png in Resources */ = {isa = PBXBuildFile; fileRef = 4D9EFD2D226A34C70099C9BF /* ApsJson.png */; };
+		4D9EFD30226A34D20099C9BF /* pushtry.png in Resources */ = {isa = PBXBuildFile; fileRef = 4D9EFD2F226A34D20099C9BF /* pushtry.png */; };
 		4DD2BAE3226541EC00B96A54 /* ApnsSample in Resources */ = {isa = PBXBuildFile; fileRef = 4DD2BAE2226541EC00B96A54 /* ApnsSample */; };
 		4DD2BAEA226545FB00B96A54 /* AppleDevProgamSite.png in Resources */ = {isa = PBXBuildFile; fileRef = 4DD2BAE9226545FB00B96A54 /* AppleDevProgamSite.png */; };
 		4DD2BAEC22663F0300B96A54 /* addCertificate_1.png in Resources */ = {isa = PBXBuildFile; fileRef = 4DD2BAEB22663F0300B96A54 /* addCertificate_1.png */; };
@@ -90,6 +92,8 @@
 		4D9E34B222698EC0002CEF0B /* KeychainAccess-RequestCert.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "KeychainAccess-RequestCert.png"; sourceTree = "<group>"; };
 		4D9E34B322698EC0002CEF0B /* ExportSSLCert.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ExportSSLCert.png; sourceTree = "<group>"; };
 		4D9E34B422698EC0002CEF0B /* iosDevCertProcess */ = {isa = PBXFileReference; lastKnownFileType = folder; path = iosDevCertProcess; sourceTree = "<group>"; };
+		4D9EFD2D226A34C70099C9BF /* ApsJson.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ApsJson.png; path = docimages/ApsJson.png; sourceTree = SOURCE_ROOT; };
+		4D9EFD2F226A34D20099C9BF /* pushtry.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = pushtry.png; path = docimages/pushtry.png; sourceTree = SOURCE_ROOT; };
 		4DD2BAE02262924800B96A54 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		4DD2BAE2226541EC00B96A54 /* ApnsSample */ = {isa = PBXFileReference; lastKnownFileType = folder; path = ApnsSample; sourceTree = "<group>"; };
 		4DD2BAE9226545FB00B96A54 /* AppleDevProgamSite.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = AppleDevProgamSite.png; sourceTree = "<group>"; };
@@ -151,6 +155,8 @@
 				4D252EC7225D098D00D50EDC /* ApnsSample.entitlements */,
 				4D252E95225CFF8D00D50EDC /* AppDelegate.h */,
 				4D252E96225CFF8D00D50EDC /* AppDelegate.m */,
+				4D9EFD2F226A34D20099C9BF /* pushtry.png */,
+				4D9EFD2D226A34C70099C9BF /* ApsJson.png */,
 				4D252E98225CFF8D00D50EDC /* ViewController.h */,
 				4D252E99225CFF8D00D50EDC /* ViewController.m */,
 				4D252E9B225CFF8D00D50EDC /* Main.storyboard */,
@@ -331,6 +337,7 @@
 				4D9E34BB22698EC0002CEF0B /* SelectAppID.png in Resources */,
 				4DD2BAE3226541EC00B96A54 /* ApnsSample in Resources */,
 				4D252E9D225CFF8D00D50EDC /* Main.storyboard in Resources */,
+				4D9EFD30226A34D20099C9BF /* pushtry.png in Resources */,
 				4D9E34BD22698EC0002CEF0B /* DownloadSSLCert.png in Resources */,
 				4D9E34C422698EC0002CEF0B /* ExportSSLCert.png in Resources */,
 				4D9E34B922698EC0002CEF0B /* DownloadProvisioningProfile.png in Resources */,
@@ -340,6 +347,7 @@
 				4DD2BAEA226545FB00B96A54 /* AppleDevProgamSite.png in Resources */,
 				4DD2BAEC22663F0300B96A54 /* addCertificate_1.png in Resources */,
 				4D9E34B622698EC0002CEF0B /* AppIDSelect.png in Resources */,
+				4D9EFD2E226A34C70099C9BF /* ApsJson.png in Resources */,
 				4D9E34C222698EC0002CEF0B /* PushNotificationSSLCreate.png in Resources */,
 				4D9E34BC22698EC0002CEF0B /* AddProvisioningProfile.png in Resources */,
 			);
