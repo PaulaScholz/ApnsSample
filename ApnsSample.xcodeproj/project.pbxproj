@@ -15,11 +15,27 @@
 		4D252EA5225CFF8F00D50EDC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D252EA4225CFF8F00D50EDC /* main.m */; };
 		4D252EAF225CFF8F00D50EDC /* ApnsSampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D252EAE225CFF8F00D50EDC /* ApnsSampleTests.m */; };
 		4D252EBA225CFF8F00D50EDC /* ApnsSampleUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D252EB9225CFF8F00D50EDC /* ApnsSampleUITests.m */; };
+		4D9E34B522698EC0002CEF0B /* AppIDRegister.png in Resources */ = {isa = PBXBuildFile; fileRef = 4D9E34A422698EBF002CEF0B /* AppIDRegister.png */; };
+		4D9E34B622698EC0002CEF0B /* AppIDSelect.png in Resources */ = {isa = PBXBuildFile; fileRef = 4D9E34A522698EBF002CEF0B /* AppIDSelect.png */; };
+		4D9E34B722698EC0002CEF0B /* CreateCSRInstructions.png in Resources */ = {isa = PBXBuildFile; fileRef = 4D9E34A622698EBF002CEF0B /* CreateCSRInstructions.png */; };
+		4D9E34B822698EC0002CEF0B /* NameProvisioningProfile.png in Resources */ = {isa = PBXBuildFile; fileRef = 4D9E34A722698EBF002CEF0B /* NameProvisioningProfile.png */; };
+		4D9E34B922698EC0002CEF0B /* DownloadProvisioningProfile.png in Resources */ = {isa = PBXBuildFile; fileRef = 4D9E34A822698EBF002CEF0B /* DownloadProvisioningProfile.png */; };
+		4D9E34BA22698EC0002CEF0B /* KeychainAccess-RequestSaved.png in Resources */ = {isa = PBXBuildFile; fileRef = 4D9E34A922698EBF002CEF0B /* KeychainAccess-RequestSaved.png */; };
+		4D9E34BB22698EC0002CEF0B /* SelectAppID.png in Resources */ = {isa = PBXBuildFile; fileRef = 4D9E34AA22698EBF002CEF0B /* SelectAppID.png */; };
+		4D9E34BC22698EC0002CEF0B /* AddProvisioningProfile.png in Resources */ = {isa = PBXBuildFile; fileRef = 4D9E34AB22698EBF002CEF0B /* AddProvisioningProfile.png */; };
+		4D9E34BD22698EC0002CEF0B /* DownloadSSLCert.png in Resources */ = {isa = PBXBuildFile; fileRef = 4D9E34AC22698EBF002CEF0B /* DownloadSSLCert.png */; };
+		4D9E34BE22698EC0002CEF0B /* AppIDEdit.png in Resources */ = {isa = PBXBuildFile; fileRef = 4D9E34AD22698EBF002CEF0B /* AppIDEdit.png */; };
+		4D9E34BF22698EC0002CEF0B /* AppIDAdd.png in Resources */ = {isa = PBXBuildFile; fileRef = 4D9E34AE22698EBF002CEF0B /* AppIDAdd.png */; };
+		4D9E34C022698EC0002CEF0B /* iOSProvisioningProfiles.png in Resources */ = {isa = PBXBuildFile; fileRef = 4D9E34AF22698EBF002CEF0B /* iOSProvisioningProfiles.png */; };
+		4D9E34C122698EC0002CEF0B /* AppIDListSelect.png in Resources */ = {isa = PBXBuildFile; fileRef = 4D9E34B022698EBF002CEF0B /* AppIDListSelect.png */; };
+		4D9E34C222698EC0002CEF0B /* PushNotificationSSLCreate.png in Resources */ = {isa = PBXBuildFile; fileRef = 4D9E34B122698EBF002CEF0B /* PushNotificationSSLCreate.png */; };
+		4D9E34C322698EC0002CEF0B /* KeychainAccess-RequestCert.png in Resources */ = {isa = PBXBuildFile; fileRef = 4D9E34B222698EC0002CEF0B /* KeychainAccess-RequestCert.png */; };
+		4D9E34C422698EC0002CEF0B /* ExportSSLCert.png in Resources */ = {isa = PBXBuildFile; fileRef = 4D9E34B322698EC0002CEF0B /* ExportSSLCert.png */; };
+		4D9E34C522698EC0002CEF0B /* iosDevCertProcess in Resources */ = {isa = PBXBuildFile; fileRef = 4D9E34B422698EC0002CEF0B /* iosDevCertProcess */; };
 		4DD2BAE3226541EC00B96A54 /* ApnsSample in Resources */ = {isa = PBXBuildFile; fileRef = 4DD2BAE2226541EC00B96A54 /* ApnsSample */; };
 		4DD2BAEA226545FB00B96A54 /* AppleDevProgamSite.png in Resources */ = {isa = PBXBuildFile; fileRef = 4DD2BAE9226545FB00B96A54 /* AppleDevProgamSite.png */; };
 		4DD2BAEC22663F0300B96A54 /* addCertificate_1.png in Resources */ = {isa = PBXBuildFile; fileRef = 4DD2BAEB22663F0300B96A54 /* addCertificate_1.png */; };
 		4DD2BAEF22663F0E00B96A54 /* RegisterAppID.png in Resources */ = {isa = PBXBuildFile; fileRef = 4DD2BAED22663F0E00B96A54 /* RegisterAppID.png */; };
-		4DD2BAF022663F0E00B96A54 /* iOSCertificates.png in Resources */ = {isa = PBXBuildFile; fileRef = 4DD2BAEE22663F0E00B96A54 /* iOSCertificates.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,12 +73,28 @@
 		4D252EB9225CFF8F00D50EDC /* ApnsSampleUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ApnsSampleUITests.m; sourceTree = "<group>"; };
 		4D252EBB225CFF8F00D50EDC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4D252EC7225D098D00D50EDC /* ApnsSample.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = ApnsSample.entitlements; sourceTree = "<group>"; };
+		4D9E34A422698EBF002CEF0B /* AppIDRegister.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = AppIDRegister.png; sourceTree = "<group>"; };
+		4D9E34A522698EBF002CEF0B /* AppIDSelect.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = AppIDSelect.png; sourceTree = "<group>"; };
+		4D9E34A622698EBF002CEF0B /* CreateCSRInstructions.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = CreateCSRInstructions.png; sourceTree = "<group>"; };
+		4D9E34A722698EBF002CEF0B /* NameProvisioningProfile.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = NameProvisioningProfile.png; sourceTree = "<group>"; };
+		4D9E34A822698EBF002CEF0B /* DownloadProvisioningProfile.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = DownloadProvisioningProfile.png; sourceTree = "<group>"; };
+		4D9E34A922698EBF002CEF0B /* KeychainAccess-RequestSaved.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "KeychainAccess-RequestSaved.png"; sourceTree = "<group>"; };
+		4D9E34AA22698EBF002CEF0B /* SelectAppID.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = SelectAppID.png; sourceTree = "<group>"; };
+		4D9E34AB22698EBF002CEF0B /* AddProvisioningProfile.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = AddProvisioningProfile.png; sourceTree = "<group>"; };
+		4D9E34AC22698EBF002CEF0B /* DownloadSSLCert.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = DownloadSSLCert.png; sourceTree = "<group>"; };
+		4D9E34AD22698EBF002CEF0B /* AppIDEdit.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = AppIDEdit.png; sourceTree = "<group>"; };
+		4D9E34AE22698EBF002CEF0B /* AppIDAdd.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = AppIDAdd.png; sourceTree = "<group>"; };
+		4D9E34AF22698EBF002CEF0B /* iOSProvisioningProfiles.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iOSProvisioningProfiles.png; sourceTree = "<group>"; };
+		4D9E34B022698EBF002CEF0B /* AppIDListSelect.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = AppIDListSelect.png; sourceTree = "<group>"; };
+		4D9E34B122698EBF002CEF0B /* PushNotificationSSLCreate.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = PushNotificationSSLCreate.png; sourceTree = "<group>"; };
+		4D9E34B222698EC0002CEF0B /* KeychainAccess-RequestCert.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "KeychainAccess-RequestCert.png"; sourceTree = "<group>"; };
+		4D9E34B322698EC0002CEF0B /* ExportSSLCert.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ExportSSLCert.png; sourceTree = "<group>"; };
+		4D9E34B422698EC0002CEF0B /* iosDevCertProcess */ = {isa = PBXFileReference; lastKnownFileType = folder; path = iosDevCertProcess; sourceTree = "<group>"; };
 		4DD2BAE02262924800B96A54 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		4DD2BAE2226541EC00B96A54 /* ApnsSample */ = {isa = PBXFileReference; lastKnownFileType = folder; path = ApnsSample; sourceTree = "<group>"; };
 		4DD2BAE9226545FB00B96A54 /* AppleDevProgamSite.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = AppleDevProgamSite.png; sourceTree = "<group>"; };
 		4DD2BAEB22663F0300B96A54 /* addCertificate_1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = addCertificate_1.png; sourceTree = "<group>"; };
 		4DD2BAED22663F0E00B96A54 /* RegisterAppID.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = RegisterAppID.png; sourceTree = "<group>"; };
-		4DD2BAEE22663F0E00B96A54 /* iOSCertificates.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iOSCertificates.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -151,7 +183,23 @@
 		4DD2BAE8226545CA00B96A54 /* docimages */ = {
 			isa = PBXGroup;
 			children = (
-				4DD2BAEE22663F0E00B96A54 /* iOSCertificates.png */,
+				4D9E34AB22698EBF002CEF0B /* AddProvisioningProfile.png */,
+				4D9E34AE22698EBF002CEF0B /* AppIDAdd.png */,
+				4D9E34AD22698EBF002CEF0B /* AppIDEdit.png */,
+				4D9E34B022698EBF002CEF0B /* AppIDListSelect.png */,
+				4D9E34A422698EBF002CEF0B /* AppIDRegister.png */,
+				4D9E34A522698EBF002CEF0B /* AppIDSelect.png */,
+				4D9E34A622698EBF002CEF0B /* CreateCSRInstructions.png */,
+				4D9E34A822698EBF002CEF0B /* DownloadProvisioningProfile.png */,
+				4D9E34AC22698EBF002CEF0B /* DownloadSSLCert.png */,
+				4D9E34B322698EC0002CEF0B /* ExportSSLCert.png */,
+				4D9E34B422698EC0002CEF0B /* iosDevCertProcess */,
+				4D9E34AF22698EBF002CEF0B /* iOSProvisioningProfiles.png */,
+				4D9E34B222698EC0002CEF0B /* KeychainAccess-RequestCert.png */,
+				4D9E34A922698EBF002CEF0B /* KeychainAccess-RequestSaved.png */,
+				4D9E34A722698EBF002CEF0B /* NameProvisioningProfile.png */,
+				4D9E34B122698EBF002CEF0B /* PushNotificationSSLCreate.png */,
+				4D9E34AA22698EBF002CEF0B /* SelectAppID.png */,
 				4DD2BAED22663F0E00B96A54 /* RegisterAppID.png */,
 				4DD2BAEB22663F0300B96A54 /* addCertificate_1.png */,
 				4DD2BAE9226545FB00B96A54 /* AppleDevProgamSite.png */,
@@ -270,14 +318,30 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4D9E34C122698EC0002CEF0B /* AppIDListSelect.png in Resources */,
 				4D252EA2225CFF8F00D50EDC /* LaunchScreen.storyboard in Resources */,
 				4D252E9F225CFF8F00D50EDC /* Assets.xcassets in Resources */,
 				4DD2BAEF22663F0E00B96A54 /* RegisterAppID.png in Resources */,
+				4D9E34B822698EC0002CEF0B /* NameProvisioningProfile.png in Resources */,
+				4D9E34C022698EC0002CEF0B /* iOSProvisioningProfiles.png in Resources */,
+				4D9E34BE22698EC0002CEF0B /* AppIDEdit.png in Resources */,
+				4D9E34B722698EC0002CEF0B /* CreateCSRInstructions.png in Resources */,
+				4D9E34BF22698EC0002CEF0B /* AppIDAdd.png in Resources */,
+				4D9E34B522698EC0002CEF0B /* AppIDRegister.png in Resources */,
+				4D9E34BB22698EC0002CEF0B /* SelectAppID.png in Resources */,
 				4DD2BAE3226541EC00B96A54 /* ApnsSample in Resources */,
 				4D252E9D225CFF8D00D50EDC /* Main.storyboard in Resources */,
+				4D9E34BD22698EC0002CEF0B /* DownloadSSLCert.png in Resources */,
+				4D9E34C422698EC0002CEF0B /* ExportSSLCert.png in Resources */,
+				4D9E34B922698EC0002CEF0B /* DownloadProvisioningProfile.png in Resources */,
+				4D9E34C522698EC0002CEF0B /* iosDevCertProcess in Resources */,
+				4D9E34BA22698EC0002CEF0B /* KeychainAccess-RequestSaved.png in Resources */,
+				4D9E34C322698EC0002CEF0B /* KeychainAccess-RequestCert.png in Resources */,
 				4DD2BAEA226545FB00B96A54 /* AppleDevProgamSite.png in Resources */,
 				4DD2BAEC22663F0300B96A54 /* addCertificate_1.png in Resources */,
-				4DD2BAF022663F0E00B96A54 /* iOSCertificates.png in Resources */,
+				4D9E34B622698EC0002CEF0B /* AppIDSelect.png in Resources */,
+				4D9E34C222698EC0002CEF0B /* PushNotificationSSLCreate.png in Resources */,
+				4D9E34BC22698EC0002CEF0B /* AddProvisioningProfile.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
