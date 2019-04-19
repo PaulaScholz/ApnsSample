@@ -95,7 +95,7 @@ Select the **iOS App Development** choice and press the **Continue** button.  Th
 
 ![Select AppID](docimages/SelectAppID.png "Select App ID")
 
-Select the certificates to include in the provisioning profile.  To use this profile to install an app, the certificate the **iOS Development Certificate** the app was signed with must be included.  If you can't remember which one you used, just select them all, and press **Continue**.
+Select the certificates to include in the provisioning profile.  To use this profile to install an app, the **iOS Development Certificate** the app was signed with must be included.  If you can't remember which one you used, just select them all, and press **Continue**.
 
 Select the test devices you wish to include in this **Provisioning Profile**. To install an app signed with this profile on a device, the device must be included.  Select your devices and press **Continue**.
 
