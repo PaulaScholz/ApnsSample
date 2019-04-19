@@ -278,7 +278,7 @@ To test APNS notifications, we use a free web-based service at [pushtry.com](htt
 
 ![pushtry.com](docimages/pushtry.png "pushtry.com")
 
-Notice that we have entered our Device Token and JSON, and have clicked the **Browse** button to upload our **.p12** certificate to the server.  You will need to do this each time to send a notification.  Make sure you have the **JSON&** radio button selected.  If you send **JSON** as text, the notification will not work.
+Notice that we have entered our Device Token and JSON, and have clicked the **Browse** button to upload our **.p12** certificate to the server.  You will need to do this each time to send a notification.  Make sure you have the **JSON** radio button selected.  If you send **JSON** as text, the notification will not work.
 
 Press the **Send** button to send the notification.  If all goes well, you will receive the APNS notification on your device.  **Note that this procedure will not work on the iOS Simulator, you MUST use a device.**
 
